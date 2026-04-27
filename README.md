@@ -40,10 +40,14 @@ FROM clean_music_streaming
 GROUP BY country
 ORDER BY total_streams DESC;
 
-## Insights
 ### Key Insights
 
 - The top 3 artists have very similar total streams, indicating strong competition in streaming performance
 - Apple Music generates the highest average revenue, suggesting stronger monetization compared to other platforms
 - Nigeria has the highest number of streams, highlighting a strong and growing listener base
 - Some platforms generate high streams but lower revenue, indicating differences in business models
+
+### Conclusion
+
+This project demonstrates how SQL can be used to clean messy datasets and extract meaningful insights. It highlights the importance of data cleaning and shows how data can reveal patterns in music consumption and platform performance.
+
